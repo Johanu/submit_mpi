@@ -9,3 +9,5 @@ def read_node_status():
 
 if __name__ == '__main__':
     stdout = read_node_status()
+    for line in stdout:
+        print line
